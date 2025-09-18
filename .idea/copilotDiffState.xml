@@ -12,6 +12,15 @@
             </PendingDiffInfo>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/requirements.txt">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/requirements.txt" />
+              <option name="originalContent" value="SQLAlchemy~=2.0.43&#10;alembic~=1.16.5&#10;aiogram~=3.22.0&#10;aiohttp~=3.12.15&#10;fake-useragent~=2.2.0&#10;beautifulsoup4~=4.13.5&#10;APScheduler~=3.11.0&#10;python-dotenv~=1.1.1&#10;dotenv&#10;asyncpg~=0.30.0&#10;aiomysql~=0.2.0" />
+              <option name="updatedContent" value="# Telegram Bot Framework&#10;aiogram==3.13.1&#10;&#10;# Environment variables&#10;python-dotenv==1.0.1&#10;&#10;# Database&#10;sqlalchemy[asyncio]==2.0.35&#10;asyncmy==0.2.9&#10;&#10;# Database migrations&#10;alembic==1.13.3&#10;&#10;# HTTP requests&#10;aiohttp==3.10.10&#10;httpx==0.27.2&#10;&#10;# Job scheduler&#10;apscheduler==3.10.4&#10;&#10;# Date and time handling&#10;pytz==2024.2&#10;&#10;# HTML parsing&#10;beautifulsoup4==4.12.3&#10;lxml==5.3.0&#10;&#10;# Data validation&#10;pydantic==2.9.2" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

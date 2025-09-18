@@ -6,8 +6,13 @@ from aiogram.enums.parse_mode import ParseMode
 from aiogram.client.default import DefaultBotProperties
 from aiogram.fsm.storage.memory import MemoryStorage
 
-from dotenv import load_dotenv
-load_dotenv()
+# Опциональный импорт dotenv для локальной разработки
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv не обязателен в production (Railway использует переменные окружения напрямую)
+    pass
 
 from bot.config import settings
 from bot.database.session import init_models

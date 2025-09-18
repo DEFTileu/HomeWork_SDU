@@ -1,7 +1,7 @@
 # Telegram Bot Framework
 aiogram==3.13.1
 
-# Environment variables
+# Environment variables (optional for Railway)
 python-dotenv==1.0.1
 
 # Database
@@ -27,4 +27,3 @@ lxml==5.3.0
 
 # Data validation
 pydantic==2.9.2
-
