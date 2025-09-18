@@ -11,6 +11,8 @@ asyncmy==0.2.9
 # Database migrations
 alembic==1.13.3
 
+fake-useragent
+
 # HTTP requests
 aiohttp==3.10.10
 httpx==0.27.2
