@@ -1,0 +1,9 @@
+aiogram
+aiohttp
+beautifulsoup4
+lxml
+sqlalchemy[asyncio]
+asyncpg
+fake-useragent
+tabulate
+aiomysql
