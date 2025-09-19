@@ -236,7 +236,8 @@ async def sql_for_admins(message: Message) -> None:
                     ('~', '\\~'),
                     ('|', '\\|'),
                     ('-', '\\-'),
-                    ('.', '\\.')
+                    ('.', '\\.'),
+                    ('>', '\\>')  # Добавляем экранирование символа >
                 ]
 
                 for char, replacement in special_chars:
