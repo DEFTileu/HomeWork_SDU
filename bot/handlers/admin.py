@@ -144,7 +144,7 @@ async def cmd_test_homework_now(message: Message) -> None:
     Симулирует окончание урока и проверяет работу уведомлений
     """
     if not _is_admin(message):
-        await message.answer("❌ Недостаточно прав для выполнения это�� команды")
+        await message.answer("❌ Недостаточно прав для выполнения этой команды")
         return
 
     from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
@@ -172,7 +172,7 @@ async def cmd_test_homework_now(message: Message) -> None:
     # 2. Запуск функции проверки напоминаний
     try:
         await unified_lesson_check(message.bot)
-        await message.answer("✅ <b>Тест завершен:</b> Функция unified_lesson_check выполнена успе��но", parse_mode="HTML")
+        await message.answer("✅ <b>Тест завершен:</b> Функция unified_lesson_check выполнена успешно", parse_mode="HTML")
     except Exception as e:
         await message.answer(f"❌ <b>Ошибка при тестировании:</b> {str(e)}", parse_mode="HTML")
 
@@ -210,7 +210,7 @@ async def sql_for_admins(message: Message) -> None:
                 rows = result.fetchall()
 
                 if not rows:
-                    await message.answer("📄 Результатов не найде��о.")
+                    await message.answer("📄 Результатов не найдено.")
                     return
 
                 # Получаем заголовки столбцов
